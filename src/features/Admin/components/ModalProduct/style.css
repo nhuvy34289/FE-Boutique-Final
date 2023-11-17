@@ -1,0 +1,100 @@
+.MuiFormControl-root {
+  width: 100%;
+}
+
+#cke_editor1 {
+  width: 100%;
+}
+
+.dropzone_css {
+  width: 100%;
+  height: 100px;
+  border: 2px dashed gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #3aa4df;
+}
+
+.dropzone_css svg {
+  color: #3aa4df;
+  font-size: 30px;
+}
+
+.show-images {
+  margin-top: 30px;
+  max-height: 270px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 10px;
+  place-items: center;
+}
+.file_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.file_img img {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.file_img span {
+  position: absolute;
+  top: 2px;
+  right: -2px;
+  z-index: 4;
+  background-color: white;
+  color: black;
+  padding: 2px 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkBox-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.checkBox-form p {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-container h4 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form-container-checkBox {
+  display: flex;
+  align-items: center;
+}
+
+.upload-container {
+  border: 1px solid #ddd;
+}
+
+.upload-container h4 {
+  margin-top: 10px;
+}

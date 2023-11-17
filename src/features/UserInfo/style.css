@@ -1,0 +1,67 @@
+.container {
+  z-index: 1 !important;
+}
+.userInfo-leftSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .thongtin_ava {
+  width: 150px;
+  height: 150px;
+  font-size: 60px;
+  background-color: #13c2c2;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.nav-user.nav-link:hover {
+  color: gray !important;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-pills .nav-link {
+  display: flex;
+  justify-content: center;
+  color: #9c9b93;
+  font-size: 15px;
+}
+
+.btn-thongtintaikhoan {
+  display: flex;
+  justify-content: center;
+}
+
+.thongtintaikhoan-title {
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.main-wrapper {
+  height: 60vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .fs-link {
+    font-size: 18px !important;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .fs-link {
+    font-size: 18px !important;
+  }
+}

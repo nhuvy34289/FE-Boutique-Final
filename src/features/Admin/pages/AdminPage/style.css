@@ -1,0 +1,164 @@
+.table-nguoidung {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 30px;
+}
+
+.ant-table-wrapper {
+  width: 100% !important;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+@media (max-width: 1023px) {
+  .cardItem {
+    display: none !important;
+  }
+  .btnAddCourse {
+    margin-top: 30px;
+    width: 100%;
+    padding: 25px 0 !important;
+    font-size: 20px !important;
+  }
+}
+
+/* Thông tin admin */
+
+.logo_img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.card_admin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.admin_text {
+  font-size: 25px;
+  text-align: center;
+}
+
+.thongtingadmin p {
+  font-size: 20px;
+}
+
+.thongtingadmin .title {
+  font-size: 25px;
+}
+
+/* Form admin */
+
+.form_admin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-card {
+  color: white;
+  width: 300px;
+  height: 150px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.bg-card1 {
+  background-color: #fa8231;
+}
+
+.bg-card2 {
+  background-color: #fed330;
+}
+
+.bg-card3 {
+  background-color: #20bf6b;
+}
+
+.bg-text h3 {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+
+.bg-text span {
+  font-size: 20px;
+}
+
+/* modal thêm người dùng */
+
+.ant-modal-title {
+  font-size: 20px !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ant-modal-body {
+  padding-bottom: 10px;
+}
+
+/* btn */
+
+.btnHome {
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  background-color: #34ace0;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
+  font-size: 15px;
+}
+
+.btnHome:hover {
+  color: white;
+  background-color: #227093;
+}
+
+.btnAddCourse {
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #16a085;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btnAddCourse span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnAddCourse:hover {
+  background-color: #1abc9c;
+}
+
+/* Modal course */
+
+.modal_course {
+  width: 1200px !important;
+}
+
+.makeStyles-root-15 {
+  width: 100% !important;
+}
+
+.MuiTabs-root .makeStyles-tabs-16 .MuiTabs-vertical {
+  width: 20% !important;
+}
+
+#vertical-tabpanel-0 {
+  width: 80% !important;
+}

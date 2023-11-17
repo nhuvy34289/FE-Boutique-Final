@@ -1,0 +1,21 @@
+.footer-container {
+  background: #343a40;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-link {
+  color: white;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  color: #dcb14a;
+}
+
+.footer-text {
+  font-size: 14px !important;
+}

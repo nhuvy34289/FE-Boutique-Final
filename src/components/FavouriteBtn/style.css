@@ -1,0 +1,16 @@
+.favourite-icon {
+  color: red !important;
+}
+
+.follow-desc {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.follow-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
