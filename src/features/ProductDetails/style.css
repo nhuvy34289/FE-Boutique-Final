@@ -1,0 +1,29 @@
+.pro-sale {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-right: 10px;
+  background: #f2f5fa;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  color: #f94c43;
+}
+
+.pro-price {
+  font-size: 18px;
+  opacity: 0.92;
+  font-weight: bold;
+}
+
+.pro-dis {
+  font-size: 14px;
+  color: #777a7b;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.pro-heading {
+  padding: 10px 0;
+  border-top: 1px dotted #dfe0e1;
+  border-bottom: 1px dotted #dfe0e1;
+}
