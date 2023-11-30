@@ -62,23 +62,23 @@ const HomePage = () => {
                 <div className="col-md-4 mb-4 mb-md-0">
                   <Link className="category-item" to={"/shop"}>
                     <img className="img-fluid" src={Images.img1} alt="" />
-                    <strong className="category-item-title">Clothes</strong>
+                    <strong className="category-item-title">Sweater</strong>
                   </Link>
                 </div>
                 <div className="col-md-4 mb-4 mb-md-0">
                   <Link className="category-item mb-4" to={"/shop"}>
                     <img className="img-fluid" src={Images.img2} alt="" />
-                    <strong className="category-item-title">Shoes</strong>
+                    <strong className="category-item-title">Cardigan</strong>
                   </Link>
                   <Link className="category-item" to={"/shop"}>
                     <img className="img-fluid" src={Images.img3} alt="" />
-                    <strong className="category-item-title">Watches</strong>
+                    <strong className="category-item-title">Hoodie</strong>
                   </Link>
                 </div>
                 <div className="col-md-4">
                   <Link className="category-item" to={"/shop"}>
                     <img className="img-fluid" src={Images.img4} alt="" />
-                    <strong className="category-item-title">Electronics</strong>
+                    <strong className="category-item-title">Shirt</strong>
                   </Link>
                 </div>
               </div>

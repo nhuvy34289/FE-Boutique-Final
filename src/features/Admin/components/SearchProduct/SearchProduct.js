@@ -1,4 +1,4 @@
-import ClickAwayListener from "@mui/core/ClickAwayListener";
+import {ClickAwayListener} from "@mui/base";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import {

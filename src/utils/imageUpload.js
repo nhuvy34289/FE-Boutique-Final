@@ -15,11 +15,13 @@ export const imageUpload = async (images) => {
   for (const item of images) {
     const formData = new FormData();
     formData.append("file", item);
-    formData.append("upload_preset", "yxqh1erj");
-    formData.append("cloud_name", "hdprivatecloud");
+    formData.append("upload_preset", "boutiqueupload");
+    formData.append("api_key", "367889283139994");
+    formData.append("api_secret", "cMMvPBTH8LJoE4v8oOdKCWwCAAo");
+
 
     const res = await fetch(
-      "https://api.cloudinary.com/v1_1/hdprivatecloud/image/upload",
+      "https://api.cloudinary.com/v1_1/dmvz4xe5p/auto/upload",
       {
         method: "POST",
         body: formData,

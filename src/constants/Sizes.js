@@ -22,7 +22,7 @@ export const SIZES = [
 export const ID_ADMIN = "618ab307528dab25eacc5797";
 
 export const KEY =
-  "pk_test_51M27KRBpQpG6lxFo8VI50eGl8IM4tZoLPgCgDGS3sPHiFkwSYMU3kVxesJuPg7vkogmsrBpen1SiOGmSvG4FGNE800ByBJ6i3Q";
+  "pk_test_51O9pYAFFSpC1vfkPTLg7jkFWn0ZhBYqHxmghgbTbEWissOtGAjxS2mtkDIrWVK8hiYYksgURET6Iqbj7IcKpLQfA003GQeuX8r";
 
 export const view = [255, 80]; // ViewBox: Width, Height
 export const trbl = [10, 20, 10, 20]; // Margins: Top, Right, Bottom, Left
