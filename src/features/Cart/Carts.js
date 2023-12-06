@@ -30,7 +30,7 @@ const Carts = () => {
       try {
         const data = {
           tokenId: stripeToken.id,
-          amount: totalCaculating(cart.cartItems),
+          amount: Math.round(totalCaculating(cart.cartItems) * 100),
         };
 
         const newData = {
@@ -149,7 +149,7 @@ const Carts = () => {
                                 billingAddress
                                 shippingAddress
                                 description="Online Payment here!"
-                                amount={totalCaculating(cart.cartItems)}
+                                amount={Math.round(totalCaculating(cart.cartItems) * 100)}
                                 token={onToken}
                                 stripeKey={KEY}
                               >

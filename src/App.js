@@ -38,7 +38,7 @@ function App() {
 
   useEffect(() => {
     dispatch(refreshTokenAction());
-    const socket = io("http://localhost:8000", { transports: ["websocket"] });
+    const socket = io("https://be-boutique-final-new.onrender.com/", { transports: ["websocket"] });
 
     dispatch(addNewSocket(socket));
     return () => socket.close();
